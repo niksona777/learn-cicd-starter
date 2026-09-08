@@ -18,5 +18,5 @@ jobs:
         with:
           go-version: "1.27.1"
 
-      - name: go versions
-        run: (go version)
+      - name: test
+        run: go test ./...
